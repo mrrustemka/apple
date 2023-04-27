@@ -1,25 +1,29 @@
-import React from 'react';
-import logo from './logo.svg';
-import './App.css';
+import { BrowserRouter, Routes, Route } from "react-router-dom";
+import Mac from "./components/Mac";
+import Ipad from "./components/Ipad";
+import Iphone from "./components/Iphone";
+import Watch from "./components/Watch";
+import MainLayout from "./components/MainLayout";
+import NotFound from "./components/NotFound";
+import "./App.css";
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.tsx</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <>
+      <BrowserRouter>
+        <div className="App">
+          <Routes>
+            <Route path="/" element={<MainLayout />}>
+              <Route index element={<Mac />} />
+              <Route path="about" element={<Ipad />} />
+              <Route path="contacts" element={<Iphone />} />
+              <Route path="courses" element={<Watch />} />
+              <Route path="*" element={<NotFound />} />
+            </Route>
+          </Routes>
+        </div>
+      </BrowserRouter>
+    </>
   );
 }
 
