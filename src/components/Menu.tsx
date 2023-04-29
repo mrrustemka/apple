@@ -1,22 +1,24 @@
 import { Link } from "react-router-dom";
-import "../App.scss";
+import logo from "../images/logo_icon_40.svg";
+import "../App.css";
 
 const Menu = () => {
   return (
-    <nav className="bg-qw p-3 text-center">
-      <Link to="." className="m-4">
+    <nav className="bg-dark p-3 text-center">
+      <img src={logo} />
+      <Link to="." className="m-4 text-white text-decoration-none">
         Home
       </Link>
-      <Link to="mac" className="m-4">
+      <Link to="mac" className="m-4 text-white text-decoration-none">
         Mac
       </Link>
-      <Link to="ipad" className="m-4">
+      <Link to="ipad" className="m-4 text-white text-decoration-none">
         Ipad
       </Link>
-      <Link to="iphone" className="m-4">
+      <Link to="iphone" className="m-4 text-white text-decoration-none">
         Iphone
       </Link>
-      <Link to="watch" className="m-4">
+      <Link to="watch" className="m-4 text-white text-decoration-none">
         Watch
       </Link>
     </nav>

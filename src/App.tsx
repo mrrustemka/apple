@@ -6,6 +6,7 @@ import Iphone from "./components/Iphone";
 import Watch from "./components/Watch";
 import MainLayout from "./components/MainLayout";
 import NotFound from "./components/NotFound";
+import "./App.css";
 
 function App() {
   return (
