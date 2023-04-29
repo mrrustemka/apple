@@ -5,20 +5,19 @@ import "../App.css";
 const Menu = () => {
   return (
     <nav className="bg-dark p-3 text-center">
-      <img src={logo} />
       <Link to="." className="m-4 text-white text-decoration-none">
-        Home
+        <img src={logo} />
       </Link>
-      <Link to="mac" className="m-4 text-white text-decoration-none">
+      <Link to="macs" className="m-4 text-white text-decoration-none">
         Mac
       </Link>
-      <Link to="ipad" className="m-4 text-white text-decoration-none">
+      <Link to="ipads" className="m-4 text-white text-decoration-none">
         Ipad
       </Link>
-      <Link to="iphone" className="m-4 text-white text-decoration-none">
+      <Link to="iphones" className="m-4 text-white text-decoration-none">
         Iphone
       </Link>
-      <Link to="watch" className="m-4 text-white text-decoration-none">
+      <Link to="watches" className="m-4 text-white text-decoration-none">
         Watch
       </Link>
     </nav>
