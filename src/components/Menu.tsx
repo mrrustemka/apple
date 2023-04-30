@@ -8,16 +8,16 @@ const Menu = () => {
       <Link to="." className="m-4 text-white text-decoration-none">
         <img src={logo} />
       </Link>
-      <Link to="macs" className="m-4 text-white text-decoration-none">
+      <Link to="mac" className="m-4 text-white text-decoration-none">
         Mac
       </Link>
-      <Link to="ipads" className="m-4 text-white text-decoration-none">
+      <Link to="ipad" className="m-4 text-white text-decoration-none">
         Ipad
       </Link>
-      <Link to="iphones" className="m-4 text-white text-decoration-none">
+      <Link to="iphone" className="m-4 text-white text-decoration-none">
         Iphone
       </Link>
-      <Link to="watches" className="m-4 text-white text-decoration-none">
+      <Link to="watch" className="m-4 text-white text-decoration-none">
         Watch
       </Link>
     </nav>
