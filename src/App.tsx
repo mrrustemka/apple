@@ -2,7 +2,7 @@ import { BrowserRouter, Routes, Route } from "react-router-dom";
 import Home from "./components/Home";
 import MacList from "./components/MacList";
 import IpadList from "./components/IpadList";
-import IphoneList from "./components/IphoneList";
+// import IphoneList from "./components/IphoneList";
 import WatchList from "./components/WatchList";
 import MainLayout from "./components/MainLayout";
 import NotFound from "./components/NotFound";
@@ -23,6 +23,7 @@ import AppleWatchHermes from "./components/watches/AppleWatchHermes";
 import AppleWatchSe from "./components/watches/AppleWatchSe";
 import AppleWatchSeries8 from "./components/watches/AppleWatchSeries8";
 import AppleWatchUltra from "./components/watches/AppleWatchUltra";
+import ProductType from "./components/ProductType";
 import "./App.css";
 
 function App() {
@@ -33,10 +34,10 @@ function App() {
           <Routes>
             <Route path="/" element={<MainLayout />}>
               <Route index element={<Home />} />
-              <Route path="iphone" element={<IphoneList />} />
-              <Route path="ipad" element={<IpadList />} />
-              <Route path="mac" element={<MacList />} />
-              <Route path="watch" element={<WatchList />} />
+              <Route path="iphone" element={<ProductType />} />
+              <Route path="ipad" element={<ProductType />} />
+              <Route path="mac" element={<ProductType />} />
+              <Route path="watch" element={<ProductType />} />
               <Route path="*" element={<NotFound />} />
               <Route path="iphone14Pro" element={<Iphone14Pro />} />
               <Route path="iphone14" element={<Iphone14 />} />
