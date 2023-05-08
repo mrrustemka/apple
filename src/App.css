@@ -1,0 +1,66 @@
+* {
+  transition: 0.3s;
+}
+
+body {
+  background-color: rgb(33, 37, 41);
+}
+
+.home {
+  background-color: white;
+}
+
+.card {
+  width: 20rem;
+  max-height: 520px;
+  min-height: 520px;
+}
+
+/* body {
+  background-color: #f5f5f7 !important;
+} */
+
+/* img {
+    width: 17rem !important;
+    height: 450px;
+  } */
+
+.smartphones-on {
+  width: 17rem !important;
+  height: 320px;
+}
+
+.smartphones-off {
+  width: 17rem !important;
+  height: 420px;
+}
+
+.laptops-on {
+  width: 17rem !important;
+  height: 225px;
+}
+
+.laptops-off {
+  width: 17rem !important;
+  height: 250px;
+}
+
+.tablets-on {
+  width: 17rem !important;
+  height: 200px;
+}
+
+.tablets-off {
+  width: 17rem !important;
+  height: 250px;
+}
+
+.watchs-on {
+  width: 17rem !important;
+  height: 200px;
+}
+
+.watchs-off {
+  width: 17rem !important;
+  height: 300px;
+}

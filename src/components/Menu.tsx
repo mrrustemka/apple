@@ -8,7 +8,7 @@ const Menu = () => {
     <nav className="bg-dark p-3 text-center">
       {headers.map((header) => (
         <Link
-          to={header.link}
+          to={header.slug}
           className="m-4 text-white text-decoration-none"
           key={header.id}
         >

@@ -2,12 +2,12 @@ import React from "react";
 import { Link } from "react-router-dom";
 import iphone_14 from "../images/iphone_14.jpg";
 import iphone from "../images/iphone.jpg";
-import ipad from "../images/ipad.jpg";
+import ipad from "../images/ipad_1.jpg";
 import watch from "../images/watch.jpg";
 
 function Home() {
   return (
-    <div>
+    <div className="home">
       <Link to="iphone14Pro" className="text-decoration-none  text-white">
         <div>
           <div className="bg-black text-center">

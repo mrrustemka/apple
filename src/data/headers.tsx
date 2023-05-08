@@ -1,28 +1,32 @@
 const headers = [
   {
     title: "Home",
-    link: ".",
+    slug: ".",
     image: true,
     id: 1,
   },
   {
     title: "Mac",
-    link: "mac",
+    slug: "mac",
+    image: false,
     id: 2,
   },
   {
     title: "iPad",
-    link: "ipad",
+    slug: "ipad",
+    image: false,
     id: 3,
   },
   {
-    title: "iphone",
-    link: "iphone",
+    title: "iPhone",
+    slug: "iphone",
+    image: false,
     id: 4,
   },
   {
     title: "Watch",
-    link: "watch",
+    slug: "watch",
+    image: false,
     id: 5,
   },
 ];
