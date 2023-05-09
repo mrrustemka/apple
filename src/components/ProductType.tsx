@@ -4,6 +4,8 @@ import NotFound from "./NotFound";
 import headers from "../data/headers";
 import { macModels } from "../data/macModels";
 import { ipadModels } from "../data/ipadModels";
+import { iphoneModels } from "../data/iphoneModels";
+import { watchModels } from "../data/watchModels";
 import Product from "./Product";
 
 const ProductType = () => {
@@ -28,8 +30,21 @@ const ProductType = () => {
       </div>
     );
   } else if (header.slug === "iphone") {
-    return <h2>iPhone</h2>;
-  } else return <h2>Watch</h2>;
+    return (
+      <div className="container mx-auto max-w-2xl pt-5">
+        {iphoneModels.map((product) => (
+          <Product product={product} key={product.id} />
+        ))}
+      </div>
+    );
+  } else
+    return (
+      <div className="container mx-auto max-w-2xl pt-5">
+        {watchModels.map((product) => (
+          <Product product={product} key={product.id} />
+        ))}
+      </div>
+    );
 };
 
 export default ProductType;

@@ -21,6 +21,7 @@ import NotFound from "./components/NotFound";
 // import AppleWatchUltra from "./components/watches/AppleWatchUltra";
 import ProductType from "./components/ProductType";
 import "./App.css";
+import ProductModel from "./components/ProductModel";
 
 function App() {
   return (
@@ -32,8 +33,9 @@ function App() {
               <Route index element={<Home />} />
               <Route path="/:slug" element={<ProductType />} />
               <Route path="*" element={<NotFound />} />
-              {/* <Route path="iphone14Pro" element={<Iphone14Pro />} />
-              <Route path="iphone14" element={<Iphone14 />} />
+              <Route path="mac/:link" element={<ProductModel />} />
+              <Route path="ipad/:link" element={<ProductModel />} />
+              {/* <Route path="iphone14" element={<Iphone14 />} />
               <Route path="iphone13" element={<Iphone13 />} />
               <Route path="iphone12" element={<Iphone12 />} />
               <Route path="iphoneSE" element={<IphoneSe />} />

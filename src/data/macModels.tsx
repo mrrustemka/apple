@@ -14,6 +14,7 @@ export const macModels: IProduct[] = [
     price: 999,
     category: "laptops",
     image: image_1,
+    link: "macbook-air",
   },
   {
     id: 2,
@@ -22,6 +23,7 @@ export const macModels: IProduct[] = [
     price: 1999,
     category: "laptops",
     image: image_2,
+    link: "macbook-pro",
   },
   {
     id: 3,
@@ -30,6 +32,7 @@ export const macModels: IProduct[] = [
     price: 525,
     category: "laptops",
     image: image_3,
+    link: "imac",
   },
   {
     id: 4,
@@ -38,6 +41,7 @@ export const macModels: IProduct[] = [
     price: 599,
     category: "laptops",
     image: image_4,
+    link: "mac-mini",
   },
   {
     id: 5,
@@ -46,6 +50,7 @@ export const macModels: IProduct[] = [
     price: 1999,
     category: "laptops",
     image: image_5,
+    link: "mac-studio",
   },
   {
     id: 6,
@@ -54,5 +59,6 @@ export const macModels: IProduct[] = [
     price: 5999,
     category: "laptops",
     image: image_6,
+    link: "mac-pro",
   },
 ];

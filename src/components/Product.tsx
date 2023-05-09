@@ -1,5 +1,6 @@
 import React, { useState } from "react";
 import { IProduct } from "./models";
+import { Link } from "react-router-dom";
 import { Image, Button, Card } from "react-bootstrap";
 import "bootstrap/dist/css/bootstrap.min.css";
 
@@ -11,8 +12,8 @@ export function Product({ product }: ProductProps) {
   const [details, setDetails] = useState(false);
 
   const btnClassName = details
-    ? "btn btn-outline-secondary btn-sm p-2 d-block m-auto"
-    : "btn btn-outline-secondary btn-sm p-2 d-block m-auto";
+    ? "btn btn-sm btn-outline-dark p-2 d-block m-auto"
+    : "btn btn-dark btn-sm p-2 d-block m-auto";
 
   let imgClassName: string;
 
@@ -36,11 +37,16 @@ export function Product({ product }: ProductProps) {
 
   return (
     <div className="card py-2 px-4 rounded mb-1 me-1 bg-white float-start">
-      <img src={product.image} className={imgClassName} alt={product.title} />
-      <h4 className="text-center mt-5">{product.title}</h4>
-      <div className="bg-danger rounded w-25 m-auto mb-2">
-        <p className="text-center text-white mb-0">{product.price}$</p>
-      </div>
+      <Link
+        to={product.description}
+        className="text-black text-decoration-none"
+      >
+        <img src={product.image} className={imgClassName} alt={product.title} />
+        <h4 className="text-center mt-5">{product.title}</h4>
+        <div className="bg-danger rounded w-25 m-auto mb-2">
+          <p className="text-center text-white mb-0">{product.price}$</p>
+        </div>
+      </Link>
       <button
         type="button"
         className={btnClassName}
@@ -49,7 +55,7 @@ export function Product({ product }: ProductProps) {
         {details ? "Hide Description" : "Show Description"}
       </button>
       {details && (
-        <div className="border p-4 mt-2 rounded text-center bg-dark">
+        <div className="border p-4 mt-2 rounded text-center bg-black">
           <p className="text-white">{product.description}</p>
         </div>
       )}

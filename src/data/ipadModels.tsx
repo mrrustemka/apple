@@ -3,8 +3,8 @@ import image_1 from "../images/ipad_pro.jpg";
 import image_2 from "../images/ipad_air.jpg";
 import image_3 from "../images/ipad_2.jpg";
 import image_4 from "../images/ipad_mini.jpg";
-// import image_5 from "../images/mac_studio.jpg";
-// import image_6 from "../images/mac_pro_.jpg";
+import image_5 from "../images/apple_keyboard.jpg";
+import image_6 from "../images/apple_pencil.jpg";
 
 export const ipadModels: IProduct[] = [
   {
@@ -14,6 +14,7 @@ export const ipadModels: IProduct[] = [
     price: 799,
     category: "tablets",
     image: image_1,
+    link: "ipad-pro",
   },
   {
     id: 2,
@@ -22,6 +23,7 @@ export const ipadModels: IProduct[] = [
     price: 599,
     category: "tablets",
     image: image_2,
+    link: "ipad-air",
   },
   {
     id: 3,
@@ -30,6 +32,7 @@ export const ipadModels: IProduct[] = [
     price: 449,
     category: "tablets",
     image: image_3,
+    link: "ipad-10.9",
   },
   {
     id: 4,
@@ -38,5 +41,24 @@ export const ipadModels: IProduct[] = [
     price: 499,
     category: "tablets",
     image: image_4,
+    link: "ipad-mini",
+  },
+  {
+    id: 5,
+    title: "iPad Keyboard",
+    description: "Keyboards that have you covered.",
+    price: 299,
+    category: "tablets",
+    image: image_5,
+    link: "ipad-keyboard",
+  },
+  {
+    id: 6,
+    title: "iPad Pencil",
+    description: "Dream it up. Jot it down.",
+    price: 129,
+    category: "tablets",
+    image: image_6,
+    link: "ipad-pencil",
   },
 ];

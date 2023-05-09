@@ -3,7 +3,7 @@
 }
 
 body {
-  background-color: rgb(33, 37, 41);
+  background-color: #000000;
 }
 
 .home {
@@ -14,6 +14,10 @@ body {
   width: 20rem;
   max-height: 520px;
   min-height: 520px;
+}
+
+.half {
+  width: 50%;
 }
 
 /* body {
