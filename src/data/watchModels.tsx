@@ -52,3 +52,5 @@ export const watchModels: IProduct[] = [
     link: "watch-nike",
   },
 ];
+
+export default watchModels;

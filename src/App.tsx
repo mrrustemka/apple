@@ -33,8 +33,8 @@ function App() {
               <Route index element={<Home />} />
               <Route path="/:slug" element={<ProductType />} />
               <Route path="*" element={<NotFound />} />
-              <Route path="mac/:link" element={<ProductModel />} />
-              <Route path="ipad/:link" element={<ProductModel />} />
+              <Route path=":slug/:link" element={<ProductModel />} />
+              {/* <Route path="ipad/:link" element={<ProductModel />} /> */}
               {/* <Route path="iphone14" element={<Iphone14 />} />
               <Route path="iphone13" element={<Iphone13 />} />
               <Route path="iphone12" element={<Iphone12 />} />

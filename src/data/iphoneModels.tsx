@@ -52,3 +52,5 @@ export const iphoneModels: IProduct[] = [
     link: "iphone-12",
   },
 ];
+
+export default iphoneModels;

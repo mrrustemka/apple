@@ -62,3 +62,5 @@ export const macModels: IProduct[] = [
     link: "mac-pro",
   },
 ];
+
+export default macModels;

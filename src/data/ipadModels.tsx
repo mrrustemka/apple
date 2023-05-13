@@ -62,3 +62,4 @@ export const ipadModels: IProduct[] = [
     link: "ipad-pencil",
   },
 ];
+export default ipadModels;

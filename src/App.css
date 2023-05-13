@@ -31,12 +31,12 @@ body {
 
 .smartphones-on {
   width: 17rem !important;
-  height: 320px;
+  height: 220px !important;
 }
 
 .smartphones-off {
   width: 17rem !important;
-  height: 420px;
+  height: 320px !important;
 }
 
 .laptops-on {
