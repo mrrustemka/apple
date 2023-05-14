@@ -1,14 +1,14 @@
 Apple web site. Single page application created with the React and Bootstrap. For launch the application need to instal node_modules (npm install) and than, launch the app (npm start).
 
 Project structure:
-1) public
+1) public:
     a. favicon.ico
     b. index.html
     c. logo192.png
     d. logo512.png
     e. manifest.json
     f. robots.txt
-2) src
+2) src:
     a. components
         - Home.tsx
         - MainLayout.tsx
@@ -18,13 +18,13 @@ Project structure:
         - ProductModel.tsx
         - ProductType.tsx
         - models.ts
-    b. data
+    b. data:
         - headers.tsx
         - ipadModels.tsx
         - iphoneModels.tsx
         - macModels.tsx
         - watchModels.tsx
-    c. images
+    c. images:
         - apple_keyboard.jpg
         - apple_pencil.jpg
         - imac.jpg
