@@ -39,7 +39,7 @@ function Home() {
         </div>
       </Link>
       <Link
-        to="mac/mac-pro"
+        to="mac/macbook-pro"
         className="half text-decoration-none text-black float-start"
       >
         <div className="text-center">

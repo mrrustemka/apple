@@ -4,7 +4,7 @@ import image_2 from "../images/mac_book_pro.jpg";
 import image_3 from "../images/imac.jpg";
 import image_4 from "../images/mac_mini.jpg";
 import image_5 from "../images/mac_studio.jpg";
-import image_6 from "../images/mac_pro_.jpg";
+import image_6 from "../images/mac_pro.jpg";
 
 export const macModels: IProduct[] = [
   {

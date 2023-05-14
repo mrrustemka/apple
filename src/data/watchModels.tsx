@@ -1,5 +1,5 @@
 import { IProduct } from "../components/models";
-import image_1 from "../images/wathc_ultra.jpg";
+import image_1 from "../images/watch_ultra.jpg";
 import image_2 from "../images/watch_series_8.jpg";
 import image_3 from "../images/watch_se.jpg";
 import image_4 from "../images/watch_hermes.jpg";

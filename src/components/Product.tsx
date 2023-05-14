@@ -1,7 +1,6 @@
 import React, { useState } from "react";
 import { IProduct } from "./models";
 import { Link } from "react-router-dom";
-// import { Image, Button, Card } from "react-bootstrap";
 import "bootstrap/dist/css/bootstrap.min.css";
 
 interface ProductProps {
