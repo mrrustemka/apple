@@ -1,4 +1,4 @@
-Apple web site. Single page application created with the React and Bootstrap. For launch the application need to instal node_modules (npm install) and than, launch the app (npm start).
+Apple website. Single page application created with the React and Bootstrap. To launch the application, you need to install node_modules (npm install) and then, launch the app (npm start).
 
 Project structure:
 1) public:
