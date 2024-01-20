@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import { IProduct } from "./models";
+import { IProduct } from "../data/models";
 import { Link } from "react-router-dom";
 import "bootstrap/dist/css/bootstrap.min.css";
 

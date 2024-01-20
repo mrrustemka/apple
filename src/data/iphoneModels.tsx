@@ -1,4 +1,4 @@
-import { IProduct } from "../components/models";
+import { IProduct } from "./models";
 import image_1 from "../images/iphone_14_pro.jpg";
 import image_2 from "../images/iphone_14_2.jpg";
 import image_3 from "../images/iphone_13.jpg";

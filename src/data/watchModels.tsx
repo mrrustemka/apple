@@ -1,4 +1,4 @@
-import { IProduct } from "../components/models";
+import { IProduct } from "./models";
 import image_1 from "../images/watch_ultra.jpg";
 import image_2 from "../images/watch_series_8.jpg";
 import image_3 from "../images/watch_se.jpg";

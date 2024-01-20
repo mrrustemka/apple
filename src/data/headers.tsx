@@ -1,7 +1,7 @@
 const headers = [
   {
     title: "Home",
-    slug: ".",
+    slug: "./apple-web-site",
     image: true,
     id: 1,
   },
