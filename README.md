@@ -1,5 +1,5 @@
 Apple website. Single page application created with the React and Bootstrap.
-Link: https://mrrustemka.github.io/apple-web-site/ (If the source didn't load, please click any link in the header)
+Link: https://mrrustemka.github.io/apple-web-site/
 
 To launch the application locally you need to install node_modules (npm install) and then, launch the app (npm start).
 
