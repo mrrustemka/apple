@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/apple-web-site/static/css/main.88c67d40.css",
-    "main.js": "/apple-web-site/static/js/main.8a05f655.js",
+    "main.js": "/apple-web-site/static/js/main.ccaa8f18.js",
     "static/media/apple_pencil.jpg": "/apple-web-site/static/media/apple_pencil.b1358f795d53f518cb2d.jpg",
     "static/media/iphone_14_pro.jpg": "/apple-web-site/static/media/iphone_14_pro.815df35de99f1e754ec9.jpg",
     "static/media/ipad_pro.jpg": "/apple-web-site/static/media/ipad_pro.0e7825590b83dad3caa5.jpg",
@@ -32,10 +32,10 @@
     "static/media/logo_icon_40.svg": "/apple-web-site/static/media/logo_icon_40.b75278c5343697e5e9119408690d7c43.svg",
     "index.html": "/apple-web-site/index.html",
     "main.88c67d40.css.map": "/apple-web-site/static/css/main.88c67d40.css.map",
-    "main.8a05f655.js.map": "/apple-web-site/static/js/main.8a05f655.js.map"
+    "main.ccaa8f18.js.map": "/apple-web-site/static/js/main.ccaa8f18.js.map"
   },
   "entrypoints": [
     "static/css/main.88c67d40.css",
-    "static/js/main.8a05f655.js"
+    "static/js/main.ccaa8f18.js"
   ]
 }
