@@ -11,7 +11,7 @@ const Menu = () => {
           className="m-4 text-white text-decoration-none"
           key={header.id}
         >
-          {header.image ? <img src={logo} /> : header.title}
+          {header.image ? <img src={logo} alt="Apple Logo" /> : header.title}
         </Link>
       ))}
     </nav>
