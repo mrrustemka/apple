@@ -56,7 +56,7 @@ export const ipadModels: IProduct[] = [
     id: 6,
     title: "iPad Pencil",
     description: "Dream it up. Jot it down.",
-    price: 129,
+    price: 99,
     category: "tablets",
     image: image_6,
     link: "ipad-pencil",
