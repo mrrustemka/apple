@@ -1,7 +1,7 @@
 import { IProduct } from "./models";
 import image_1 from "../images/mac_book_air.jpg";
 import image_2 from "../images/mac_book_pro.jpg";
-import image_3 from "../images/imac.jpg";
+import image_3 from "../images/imac.jpeg";
 import image_4 from "../images/mac_mini.jpg";
 import image_5 from "../images/mac_studio.jpg";
 import image_6 from "../images/mac_pro.jpg";
@@ -19,8 +19,8 @@ export const macModels: IProduct[] = [
   {
     id: 2,
     title: "MacBook Pro",
-    description: "Pro anywhere.",
-    price: 1999,
+    description: "Mind-blowing. Head-turning.",
+    price: 1599,
     category: "laptops",
     image: image_2,
     link: "macbook-pro",
@@ -29,7 +29,7 @@ export const macModels: IProduct[] = [
     id: 3,
     title: "iMac",
     description: "Say hello to the new iMac.",
-    price: 525,
+    price: 1299,
     category: "laptops",
     image: image_3,
     link: "imac",
