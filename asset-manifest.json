@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/apple-web-site/static/css/main.88c67d40.css",
-    "main.js": "/apple-web-site/static/js/main.20d486f0.js",
+    "main.js": "/apple-web-site/static/js/main.4942aa3a.js",
     "static/media/iphone_15.jpeg": "/apple-web-site/static/media/iphone_15.e57f6c60315825b7f6e2.jpeg",
     "static/media/apple_pencil.jpg": "/apple-web-site/static/media/apple_pencil.b1358f795d53f518cb2d.jpg",
     "static/media/iphone_14_pro.jpg": "/apple-web-site/static/media/iphone_14_pro.815df35de99f1e754ec9.jpg",
@@ -14,10 +14,10 @@
     "static/media/ipad_mini.jpg": "/apple-web-site/static/media/ipad_mini.9dee3ec703db84674059.jpg",
     "static/media/watch_ultra.jpg": "/apple-web-site/static/media/watch_ultra.a50036eaf3c4b65e0c09.jpg",
     "static/media/imac.jpeg": "/apple-web-site/static/media/imac.7885ad23ee4ee1b4eb23.jpeg",
-    "static/media/iphone.jpg": "/apple-web-site/static/media/iphone.d68456aece28a7cf8f41.jpg",
-    "static/media/iphone_14_1.jpg": "/apple-web-site/static/media/iphone_14_1.3d22ef77654f29f6e9df.jpg",
     "static/media/mac_pro.jpg": "/apple-web-site/static/media/mac_pro.0db7230afdbae4755591.jpg",
+    "static/media/iphone_15_1.jpg": "/apple-web-site/static/media/iphone_15_1.be0a7cddb8e5c32bbb6c.jpg",
     "static/media/watch_hermes.jpg": "/apple-web-site/static/media/watch_hermes.db15cfd6f2145a51099e.jpg",
+    "static/media/iphone.jpg": "/apple-web-site/static/media/iphone.eb6ab2fcb5a332b68f35.jpg",
     "static/media/watch_series_8.jpg": "/apple-web-site/static/media/watch_series_8.034c9fd60eb45ffef9aa.jpg",
     "static/media/watch_se.jpg": "/apple-web-site/static/media/watch_se.8877c1ef6800fe0623d1.jpg",
     "static/media/iphone_12.jpg": "/apple-web-site/static/media/iphone_12.f1edcf46b38a97632dd0.jpg",
@@ -34,10 +34,10 @@
     "static/media/logo_icon_40.svg": "/apple-web-site/static/media/logo_icon_40.b75278c5343697e5e9119408690d7c43.svg",
     "index.html": "/apple-web-site/index.html",
     "main.88c67d40.css.map": "/apple-web-site/static/css/main.88c67d40.css.map",
-    "main.20d486f0.js.map": "/apple-web-site/static/js/main.20d486f0.js.map"
+    "main.4942aa3a.js.map": "/apple-web-site/static/js/main.4942aa3a.js.map"
   },
   "entrypoints": [
     "static/css/main.88c67d40.css",
-    "static/js/main.20d486f0.js"
+    "static/js/main.4942aa3a.js"
   ]
 }
