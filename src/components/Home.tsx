@@ -1,6 +1,6 @@
 import React from "react";
 import { Link } from "react-router-dom";
-import iphone_14 from "../images/iphone_14_1.jpg";
+import iphone_15 from "../images/iphone_15_1.jpg";
 import iphone from "../images/iphone.jpg";
 import ipad from "../images/ipad_1.jpg";
 import macbook from "../images/macbook_pro_14.jpg";
@@ -15,17 +15,17 @@ function Home() {
       >
         <div>
           <div className="bg-black text-center">
-            <h2 className="m-0 fs-1 pt-4 pb-0">iPhone 14 Pro</h2>
-            <h3 className="m-0 p-2 fs-4">Pro. Beyond.</h3>
-            <img src={iphone_14} className="img-fluid" alt="Iphone 14 Pro" />
+            <h2 className="m-0 fs-1 pt-4 pb-0">iPhone 15 Pro</h2>
+            <h3 className="m-0 p-2 fs-4">Forged in titanium.</h3>
+            <img src={iphone} className="img-fluid" alt="Iphone 15 Pro" />
           </div>
         </div>
       </Link>
       <Link to="iphone" className="text-decoration-none text-black">
         <div className="text-center">
-          <h2 className="m-0 fs-1 pt-4 pb-0">iPhone 14</h2>
-          <h3 className="m-0 p-2 fs-4">Wonderfull.</h3>
-          <img src={iphone} className="img-fluid" alt="Iphones" />
+          <h2 className="m-0 fs-1 pt-4 pb-0">iPhone 15</h2>
+          <h3 className="m-0 p-2 fs-4">Newphoria</h3>
+          <img src={iphone_15} className="img-fluid w-100" alt="Iphone 15" />
         </div>
       </Link>
       <Link
