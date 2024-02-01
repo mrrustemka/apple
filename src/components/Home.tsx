@@ -9,10 +9,7 @@ import watch from "../images/watch.jpg";
 function Home() {
   return (
     <div className="home">
-      <Link
-        to="iphone/iphone-14-pro"
-        className="text-decoration-none  text-white"
-      >
+      <Link to="iphone-15-pro" className="text-decoration-none  text-white">
         <div>
           <div className="bg-black text-center">
             <h2 className="m-0 fs-1 pt-4 pb-0">iPhone 15 Pro</h2>
@@ -21,7 +18,7 @@ function Home() {
           </div>
         </div>
       </Link>
-      <Link to="iphone" className="text-decoration-none text-black">
+      <Link to="iphone-15" className="text-decoration-none text-black">
         <div className="text-center">
           <h2 className="m-0 fs-1 pt-4 pb-0">iPhone 15</h2>
           <h3 className="m-0 p-2 fs-4">Newphoria</h3>
@@ -29,7 +26,7 @@ function Home() {
         </div>
       </Link>
       <Link
-        to="ipad"
+        to="ipad-pro"
         className="half text-decoration-none text-black float-start bg-white"
       >
         <div className="text-center">
@@ -39,7 +36,7 @@ function Home() {
         </div>
       </Link>
       <Link
-        to="mac/macbook-pro"
+        to="macbook-pro"
         className="half text-decoration-none text-black float-start"
       >
         <div className="text-center">
@@ -50,7 +47,10 @@ function Home() {
           </h3>
         </div>
       </Link>
-      <Link to="watch" className="text-decoration-none text-white float-start">
+      <Link
+        to="watch-ultra"
+        className="text-decoration-none text-white float-start"
+      >
         <div className="text-center bg-black pb-5">
           <h2 className="m-0 fs-1 pt-4 pb-0 text-uppercase">
             Apple Watch Series 8
